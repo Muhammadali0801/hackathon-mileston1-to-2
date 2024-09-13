@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Static Interactive Resume</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- create a main header -->
+    <header id="main-header">
+      <h1>Static Interactive Resume</h1>
+    </header>
+    
+    <!-- Create a side bar -->
+    <div class="side-bar">
+      <div id="profile"></div>
+      <div class="headings">
+        <h2>Career Objective</h2>
+        <p id="sidebar-paragraph">
+          Seeking a challenging role in a dynamic organization to apply my web
+          development skills and contribute to innovative projects, while
+          continuing to grow professionally and expand my expertise in modern
+          technologies.
+        </p>
+      </div>
+    </div>
+
+    <!-- Main content sections -->
+    <div class="main-content">
+      <section id="personal-info">
+        <h2>Personal Information</h2>
+        <p><strong>Name:</strong> Muhammad Ali</p>
+        <p><strong>Email:</strong> ma0637579@gmail.com</p>
+        <p><strong>Phone:</strong> 0312-0128544</p>
+      </section>
+
+      <section id="education">
+        <h2>Education</h2>
+        <p>
+          <strong>Matriculation in Computer Science</strong> -
+          <em> S.M.B Academy (2019)</em>
+        </p>
+        <p>
+          <strong>Intermediate in Commerce</strong> -
+          <em> Borad of Intermediate Education Karachi (2021)</em>
+        </p>
+    
+      </section>
+
+      <button id="toggle-skills-btn">Show Skills</button> <br />
+      <section id="skills" style="display: none">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML, CSS, JavaScript, TypeScript</li>
+          <li>React, NEXT.js</li>
+          <li>Git, GitHub</li>
+        </ul>
+      </section>
+      <br />
+      <button id="toggle-work-btn">Show Work Experience</button>
+      <section id="work-experience" style="display: none">
+        <h2>Work Experience</h2>
+        <p>
+          <strong>Sales Person</strong> - <em>Galaxy optics (2018 - 2019)</em>
+        </p>
+        <p>
+          <strong>Call Center Agent</strong> -
+          <em>Hello Comunication (2019 - 2020)</em>
+        </p>
+        <p>
+          <strong>Sales Person</strong> -
+          <em>Karachi wala dry fruit (2020 - 2020)</em>
+        </p>
+        <p>
+          <strong>Manager</strong> -
+          <em>Karachi wala dry fruit (2020 - 2021)</em>
+        </p>
+        <p>
+          <strong>Quality Control Officer (QCO)</strong> -
+          <em>Media Monitors (2021 - 2022)</em>
+        </p>
+        <p>
+          <strong>Quality Assurance (QA)</strong> -
+          <em>Media Monitors (2022 - 2024)</em>
+        </p>
+      </section>
+    </div>
+    <script src="script.js" defer></script>
+    <!-- Link to the compiled JS from TypeScript -->
+  </body>
+</html>
